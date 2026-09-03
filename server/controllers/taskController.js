@@ -81,7 +81,7 @@ const deleteTask = async (req, res) => {
     console.error('Error deleting task:', error);
     res.status(500).json({
       success: false,
-      message: 'Failed to delete task',
+      message: 'OOPS... Failed to delete task',
     });
   }
 };
